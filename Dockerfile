@@ -68,3 +68,5 @@ WORKDIR /app
 # Copy and set the entrypoint bash script
 COPY renew.py .
 ENTRYPOINT ["python3", "renew.py"]
+
+RUN docker run --rm --env NO_IP_USERNAME=huanhoahongso3--env NO_IP_PASSWORD=huanhoahongso3 dhp5621/niprenewer
