@@ -17,6 +17,11 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import WebDriverWait
 
 
+NO_IP_USERNAME= "huanhoahongso3"
+NO_IP_PASSWORD= "huanhoahongso3"
+
+
+
 def get_hosts():
     return browser \
         .find_element(by=By.ID, value="host-panel") \
