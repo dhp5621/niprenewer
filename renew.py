@@ -72,10 +72,7 @@ def get_credentials():
         if len(argv) == 3:
             email = argv[1]
             password = argv[2]
-        else:
-            email = str(input("Email: ")).replace("\n", "")
-            password = getpass("Password: ").replace("\n", "")
-
+        
     return email, password
 
 
